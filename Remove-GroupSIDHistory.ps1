@@ -1,4 +1,7 @@
-﻿$GroupOU = 'OU=ouname,DC=domain,DC=com'
+## created by Jean Louw and Chris Bishop
+## Please note that you run this code at your own risk
+
+$GroupOU = 'OU=ouname,DC=domain,DC=com'
 $AllGroups = Get-ADGroup -SearchBase $GroupOU -Filter *
 
 
